@@ -32,3 +32,33 @@
  */
 
 //writ your code here .....
+
+function players(){
+	var count={} 
+	count.add=add
+	count.name=this name
+	count.position=this position
+	count.level=this level
+	count.availability = availability 
+	count.increase= increase
+	count.player=player
+
+}
+var add = function(,name,age, position,level,availability  ){
+	return this.name,this.age, this.position,this.level,this.availability
+	}
+var increase =function(){
+	var n=0
+	if (this.level<=n){
+		return this.level++
+	}
+}
+var available= function(){
+	if (!(this.availability in count)){
+		return true
+	}else {false
+}
+}
+var player=function(name,age,position,level,availability){
+	return this.add(name,age,position,level,availability)
+}
